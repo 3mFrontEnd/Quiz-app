@@ -1,0 +1,74 @@
+/* importing the font by */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #ddd;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quiz-container{
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px     rgba(0, 0, 0, 0.5);
+    position: relative;
+
+}
+
+.quiz-header{
+    padding: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+label,input{
+    cursor: pointer;
+}
+
+h2{
+    margin: 0;
+    padding: 1rem;
+}
+
+button{
+    background-color: rgb(49, 152, 63);
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    font-family: inherit;
+    border: none;
+    border-top: 1px solid #999;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:  rgb(11, 90, 21);
+}
+
+span{
+    color: green;
+}
